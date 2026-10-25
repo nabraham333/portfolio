@@ -1,7 +1,7 @@
-<!-- Assignment 3: World Happiness Data Visualizations -->
+<!-- Assignment 3: Data Visualization Critique -->
 <article>
   <header>
-    <h2>Assignment 3: World Happiness Report — Viz Critique</h2>
+    <h2>Assignment 3: World Happiness Report — Good vs. Bad Visualization</h2>
     <p>
       Data Source: 
       <a href="https://worldpopulationreview.com/country-rankings/happiest-countries-in-the-world" target="_blank" rel="noopener noreferrer">
@@ -10,26 +10,35 @@
     </p>
   </header>
 
-  <!-- Good Visualization -->
-  <section style="margin-bottom: 2rem;">
-    <h3>Good Data Visualization</h3>
-    <a href="images/good_viz.png" class="image fit">
-      <img src="images/good_viz.png" alt="Good Data Visualization - Top 10 Happiest Countries" />
-    </a>
+  <!-- Section 1: Good Data Visualization -->
+  <section style="margin-bottom: 2.5rem;">
+    <h3>Good Data Visualization: Top 10 Happiest Countries</h3>
+    <div class="image fit">
+      <img src="images/good_viz.png" alt="Clean Horizontal Bar Chart of Top 10 Happiest Countries" />
+    </div>
     <p>
-      <strong>Why it works:</strong> The horizontal bar chart cleanly presents the top 10 happiest nations ordered by score. 
-      It features a high data-to-ink ratio, zero visual clutter, readable labels, and a consistent color scheme that enables quick visual comparisons.
+      <strong>Why this visualization works:</strong>
     </p>
+    <ul>
+      <li><strong>Intuitive Sorting & Type:</strong> A horizontal bar chart allows country names to be read naturally without tilting your head. Sorting scores in descending order makes visual comparisons immediate.</li>
+      <li><strong>High Data-to-Ink Ratio:</strong> Unnecessary decorative elements, heavy 3D shading, and visual noise are removed, allowing key data points to stand out clearly.</li>
+      <li><strong>Accessible Scale:</strong> The horizontal axis starts at an appropriate baseline and uses consistent spacing, preserving scale integrity.</li>
+    </ul>
   </section>
 
-  <!-- Bad Visualization -->
-  <section style="margin-bottom: 2rem;">
-    <h3>Bad Data Visualization</h3>
-    <a href="images/bad_viz.png" class="image fit">
-      <img src="images/bad_viz.png" alt="Bad Data Visualization - Misleading 3D Chart" />
-    </a>
+  <!-- Section 2: Bad Data Visualization -->
+  <section style="margin-bottom: 2.5rem;">
+    <h3>Bad Data Visualization: Overstuffed Happiness Distribution</h3>
+    <div class="image fit">
+      <img src="images/bad_viz.png" alt="Cluttered Pie Chart displaying dozens of countries" />
+    </div>
     <p>
-      <strong>Why it fails:</strong> The 3D pie chart uses too many categories (slices), distorted proportions due to 3D perspective, non-intuitive color choices, and unreadable text labels that mislead the audience and increase cognitive load.
+      <strong>Why this visualization fails:</strong>
     </p>
+    <ul>
+      <li><strong>Wrong Chart Selection:</strong> Pie charts rely on judging visual angles and area, which humans do poorly compared to length. Representing relative score differences across many categories fails completely.</li>
+      <li><strong>Excessive Cognitive Load:</strong> Cramming dozens of categories into a single color wheel creates an unreadable rainbow smudge with overlapping labels.</li>
+      <li><strong>Misleading Proportions:</strong> Similar score values (e.g., 7.74 vs 7.52) appear visually indistinguishable when converted to tiny wedge slices.</li>
+    </ul>
   </section>
 </article>
