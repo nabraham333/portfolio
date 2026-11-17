@@ -1,46 +1,187 @@
-<article>
-  <header>
-    <h2>Assignment 3: World Happiness Report — Good vs. Bad Visualization Critique</h2>
-    <p>
-      Data Source: 
-      <a href="https://worldpopulationreview.com/country-rankings/happiest-countries-in-the-world" target="_blank" rel="noopener noreferrer">
-        World Population Review — Happiest Countries in the World
-      </a>
-    </p>
-  </header>
+```html
+<!DOCTYPE HTML>
+<html>
 
-  <!-- Good Visualization Section -->
-  <section style="margin-bottom: 2.5rem;">
-    <h3>1. Good Data Visualization: Top 5 Happiest Countries</h3>
-    <div class="image fit">
-      <img src="images/good_viz.svg" alt="Clean Horizontal Bar Chart of Top 5 Happiest Countries" />
+<head>
+    <title>Assignment 3 - Visualization Critique</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+
+    <link rel="stylesheet" href="assets/css/main.css" />
+
+    <noscript>
+        <link rel="stylesheet" href="assets/css/noscript.css" />
+    </noscript>
+</head>
+
+<body class="is-preload">
+
+<div id="wrapper" class="fade-in">
+
+    <!-- Header -->
+    <header id="header">
+        <a href="index.html" class="logo">Assignment 3</a>
+    </header>
+
+    <!-- Navigation -->
+    <nav id="nav">
+        <ul class="links">
+            <li><a href="index.html">Assignment 1</a></li>
+            <li><a href="generic.html">Assignment 2</a></li>
+            <li class="active"><a href="elements.html">Assignment 3</a></li>
+            <li><a href="assignment4.html">Assignment 4</a></li>
+        </ul>
+
+        <ul class="icons">
+            <li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+            <li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+            <li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+            <li><a href="#" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+        </ul>
+    </nav>
+
+    <!-- Main -->
+    <div id="main">
+
+        <article class="post">
+
+            <header class="major">
+
+                <h1>Assignment 3:<br />
+                World Happiness Report</h1>
+
+                <p>Good vs. Bad Visualization Critique</p>
+
+                <p>
+                    Data Source:
+                    <a href="https://worldpopulationreview.com/country-rankings/happiest-countries-in-the-world"
+                       target="_blank"
+                       rel="noopener noreferrer">
+                        World Population Review — Happiest Countries in the World
+                    </a>
+                </p>
+
+            </header>
+
+            <!-- Good Visualization -->
+            <section>
+
+                <h2>1. Good Data Visualization: Top 5 Happiest Countries</h2>
+
+                <div class="image fit">
+                    <img
+                        src="images/good_viz.svg"
+                        alt="Clean horizontal bar chart of the top five happiest countries"
+                    />
+                </div>
+
+                <p><strong>Description & Approach:</strong></p>
+
+                <p>
+                    This visualization presents the top 5 happiest countries
+                    using a clean, horizontal bar chart format. My approach
+                    focused on maximizing clarity and the data-to-ink ratio.
+                    By utilizing horizontal bars, country names align naturally
+                    with left-to-right reading habits, eliminating the need
+                    to tilt text or crowd labels.
+                </p>
+
+                <p>
+                    The values are sorted in strict descending order from top
+                    to bottom, making immediate comparisons effortless.
+                    A neutral, unified color palette (#3498db) avoids
+                    unnecessary distractions, ensuring the viewer's attention
+                    stays entirely on the underlying scores.
+                </p>
+
+            </section>
+
+            <!-- Bad Visualization -->
+            <section>
+
+                <h2>2. Bad Data Visualization: Distorted & Cluttered Representation</h2>
+
+                <div class="image fit">
+                    <img
+                        src="images/bad_viz.svg"
+                        alt="Cluttered and distorted 3D-style chart with overlapping text"
+                    />
+                </div>
+
+                <p><strong>Description & Approach:</strong></p>
+
+                <p>
+                    This visualization intentionally breaks core data
+                    visualization principles to mimic a poor design. My
+                    approach here was to combine a dark, heavy background
+                    with aggressive 3D perspective slices, harsh neon color
+                    palettes, and haphazardly rotated, overlapping text labels.
+                </p>
+
+                <p>
+                    This creates extreme visual clutter and cognitive overload,
+                    making it virtually impossible for a reader to accurately
+                    judge relative scores or extract quick insights.
+                </p>
+
+            </section>
+
+            <!-- Critical Reflection -->
+            <section>
+
+                <h2>3. Critical Reflection: The Power and Danger of Misleading Visuals</h2>
+
+                <p>
+                    It is remarkably easy to mislead people using data
+                    visualizations because human brains are hardwired to
+                    process visual proportions, shapes, and colors almost
+                    instantaneously—often bypassing rigorous analytical
+                    scrutiny. When designers manipulate baseline axes,
+                    use misleading 3D perspectives, or overload charts
+                    with distracting visual elements, viewers are primed
+                    to accept distorted narratives as objective truth.
+                    Because data charts carry an inherent aura of scientific
+                    authority, people rarely question the underlying
+                    presentation choices.
+                </p>
+
+                <p>
+                    To avoid being misled, readers should cultivate a
+                    critical eye by actively looking for truncation,
+                    missing axis labels, unverified data sources, and
+                    unnecessary decorative fluff that obscures true values.
+                    Always ask yourself whether the visual structure serves
+                    to clarify the data or manipulate your emotional reaction.
+                    By checking scales, demanding raw context, and questioning
+                    dramatic visual contrasts, you can protect yourself
+                    against analytical deception.
+                </p>
+
+            </section>
+
+        </article>
+
     </div>
-    <p><strong>Description & Approach:</strong></p>
-    <p>
-      This visualization presents the top 5 happiest countries using a clean, horizontal bar chart format. My approach focused on maximizing clarity and the data-to-ink ratio. By utilizing horizontal bars, country names align naturally with left-to-right reading habits, eliminating the need to tilt text or crowd labels. The values are sorted in strict descending order from top to bottom, making immediate comparisons effortless. A neutral, unified color palette (`#3498db`) avoids unnecessary distractions, ensuring the viewer's attention stays entirely on the underlying scores.
-    </p>
-  </section>
 
-  <!-- Bad Visualization Section -->
-  <section style="margin-bottom: 2.5rem;">
-    <h3>2. Bad Data Visualization: Distorted & Cluttered Representation</h3>
-    <div class="image fit">
-      <img src="images/bad_viz.svg" alt="Cluttered and distorted 3D-style chart with overlapping text" />
+    <!-- Copyright -->
+    <div id="copyright">
+        <ul>
+            <li>&copy; Neenu Abraham</li>
+            <li>Design: <a href="https://html5up.net">HTML5 UP</a></li>
+        </ul>
     </div>
-    <p><strong>Description & Approach:</strong></p>
-    <p>
-      This visualization intentionally breaks core data visualization principles to mimic a poor design. My approach here was to combine a dark, heavy background with aggressive 3D perspective slices, harsh neon color palettes, and haphazardly rotated, overlapping text labels. This creates extreme visual clutter and cognitive overload, making it virtually impossible for a reader to accurately judge relative scores or extract quick insights.
-    </p>
-  </section>
 
-  <!-- Critical Reflection Section -->
-  <section style="margin-bottom: 2rem;">
-    <h3>Critical Reflection: The Power and Danger of Misleading Visuals</h3>
-    <p>
-      It is remarkably easy to mislead people using data visualizations because human brains are hardwired to process visual proportions, shapes, and colors almost instantaneously—often bypassing rigorous analytical scrutiny. When designers manipulate baseline axes, use misleading 3D perspectives, or overload charts with distracting visual elements, viewers are primed to accept distorted narratives as objective truth. Because data charts carry an inherent aura of scientific authority, people rarely question the underlying presentation choices.
-    </p>
-    <p>
-      To avoid being misled, readers should cultivate a critical eye by actively looking for truncation, missing axis labels, unverified data sources, and unnecessary decorative fluff that obscures true values. Always ask yourself whether the visual structure serves to clarify the data or manipulate your emotional reaction. By checking scales, demanding raw context, and questioning dramatic visual contrasts, you can protect yourself against analytical deception.
-    </p>
-  </section>
-</article>
+</div>
+
+<!-- Scripts -->
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/js/jquery.scrollex.min.js"></script>
+<script src="assets/js/jquery.scrolly.min.js"></script>
+<script src="assets/js/browser.min.js"></script>
+<script src="assets/js/breakpoints.min.js"></script>
+<script src="assets/js/util.js"></script>
+<script src="assets/js/main.js"></script>
+
+</body>
+</html>
+```
