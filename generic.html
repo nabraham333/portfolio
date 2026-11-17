@@ -1,4 +1,4 @@
-
+```html
 <!DOCTYPE HTML>
 <html>
 
@@ -11,6 +11,28 @@
     <noscript>
         <link rel="stylesheet" href="assets/css/noscript.css" />
     </noscript>
+
+    <style>
+        .chart-image {
+            text-align: center;
+            margin: 2em 0;
+        }
+
+        .chart-image img {
+            display: block;
+            max-width: 100%;
+            width: auto;
+            height: auto;
+            margin: 0 auto;
+        }
+
+        .chart-caption {
+            font-size: 0.9em;
+            color: #777;
+            margin-top: 1em;
+            text-align: center;
+        }
+    </style>
 </head>
 
 <body class="is-preload">
@@ -24,65 +46,27 @@
 
     <!-- Navigation -->
     <nav id="nav">
-
         <ul class="links">
-
-            <li>
-                <a href="index.html">Assignment 1</a>
-            </li>
-
-            <li class="active">
-                <a href="generic.html">Assignment 2</a>
-            </li>
-
-            <li>
-                <a href="elements.html">Assignment 3</a>
-            </li>
-
-            <li>
-                <a href="assignment4.html">Assignment 4</a>
-            </li>
-
+            <li><a href="index.html">Assignment 1</a></li>
+            <li class="active"><a href="generic.html">Assignment 2</a></li>
+            <li><a href="elements.html">Assignment 3</a></li>
+            <li><a href="assignment4.html">Assignment 4</a></li>
         </ul>
 
         <ul class="icons">
-
-            <li>
-                <a href="#" class="icon brands fa-twitter">
-                    <span class="label">Twitter</span>
-                </a>
-            </li>
-
-            <li>
-                <a href="#" class="icon brands fa-facebook-f">
-                    <span class="label">Facebook</span>
-                </a>
-            </li>
-
-            <li>
-                <a href="#" class="icon brands fa-instagram">
-                    <span class="label">Instagram</span>
-                </a>
-            </li>
-
-            <li>
-                <a href="#" class="icon brands fa-github">
-                    <span class="label">GitHub</span>
-                </a>
-            </li>
-
+            <li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+            <li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+            <li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+            <li><a href="#" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
         </ul>
-
     </nav>
 
     <!-- Main -->
     <div id="main">
 
-        <!-- Assignment 2 -->
         <article class="post featured">
 
             <header class="major">
-
                 <span class="date">October 5, 2026</span>
 
                 <h1>Steel Density Visualization</h1>
@@ -92,12 +76,10 @@
                     on their density. The original chart and an improved
                     visualization are shown below.
                 </p>
-
             </header>
 
             <!-- Original Chart -->
             <section>
-
                 <header>
                     <h2>Original Steel Density Chart</h2>
                 </header>
@@ -109,21 +91,20 @@
                     are difficult to see.
                 </p>
 
-                <div style="text-align:center;">
-
+                <div class="chart-image">
                     <img
                         src="images/original_steel_density_chart.png"
-                        alt="Original Steel Density Chart"
-                        style="max-width:100%; height:auto;"
+                        alt="Original chart comparing the density of four types of steel"
                     />
 
+                    <p class="chart-caption">
+                        Figure 1: Original Steel Density Chart
+                    </p>
                 </div>
-
             </section>
 
             <!-- Improved Chart -->
             <section>
-
                 <header>
                     <h2>Improved Steel Density Chart</h2>
                 </header>
@@ -134,23 +115,22 @@
                     This makes it easier to compare the four steel types.
                 </p>
 
-                <div style="text-align:center;">
-
+                <div class="chart-image">
                     <img
                         src="images/steel_density_difference_chart.png"
-                        alt="Improved Steel Density Comparison Chart"
-                        style="max-width:100%; height:auto;"
+                        alt="Improved chart highlighting differences in steel density"
                     />
 
+                    <p class="chart-caption">
+                        Figure 2: Improved Steel Density Comparison Chart
+                    </p>
                 </div>
-
             </section>
 
             <!-- Comparison -->
             <section>
-
                 <header>
-                    <h2>Comparison</h2>
+                    <h2>Comparison of the Two Visualizations</h2>
                 </header>
 
                 <p>
@@ -163,13 +143,11 @@
                 <p>
                     The improved chart adjusts the vertical axis to focus
                     on the range from approximately 7,790 to 7,870 kg/m³.
-                    This makes the differences between the steel types much
+                    This makes the differences between the steel types
                     more visible.
                 </p>
 
-                <p>
-                    The densities shown are:
-                </p>
+                <h3>Steel Density Values</h3>
 
                 <ul>
                     <li>Low Carbon Steel: 7,850 kg/m³</li>
@@ -178,6 +156,13 @@
                     <li>Duplex Stainless Steel: 7,800 kg/m³</li>
                 </ul>
 
+                <p>
+                    Overall, the improved visualization makes it easier
+                    to identify and compare the differences in density.
+                    However, the shortened vertical axis should be clearly
+                    labeled because it can make small differences appear
+                    larger than they are.
+                </p>
             </section>
 
         </article>
@@ -186,18 +171,10 @@
 
     <!-- Copyright -->
     <div id="copyright">
-
         <ul>
             <li>&copy; Neenu Abraham</li>
-
-            <li>
-                Design:
-                <a href="https://html5up.net">
-                    HTML5 UP
-                </a>
-            </li>
+            <li>Design: <a href="https://html5up.net">HTML5 UP</a></li>
         </ul>
-
     </div>
 
 </div>
@@ -213,3 +190,4 @@
 
 </body>
 </html>
+```
